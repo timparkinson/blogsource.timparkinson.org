@@ -1,0 +1,5 @@
+<header>
+    <h1>{{ .Title }}</h1>
+    <p>{{ or .Description "Tim's Blog - I think I broke it"}}</p>
+    {{ partial "navigation.html" . -}}
+</header>

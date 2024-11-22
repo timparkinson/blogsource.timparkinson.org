@@ -1,0 +1,8 @@
+{{ define "main" }}
+    {{ .Content }}
+    {{ range .Data.Terms.Alphabetical }}
+        <nav>
+            <a href="{{ .Page.RelPermalink }}" class="button">{{ .Page.Title }}</a>
+        </nav>
+    {{ end }}
+{{ end }}

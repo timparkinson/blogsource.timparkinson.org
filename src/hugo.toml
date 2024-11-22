@@ -1,0 +1,27 @@
+baseURL = 'https://blog.timparkinson.org'
+languageCode = 'en-gb'
+title = "Tim's Blog"
+
+
+[taxonomies]
+    tag = 'tags'
+
+[params.author]
+    name = "Tim Parkinson"
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+    weight = 20
