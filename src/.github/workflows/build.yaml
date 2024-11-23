@@ -16,7 +16,7 @@ jobs:
     
     steps:
 
-      # Install the hugo binary
+      # Install the hugo binary and make it runnable
       - name: Install Hugo
         env: 
           HUGO_VERSION: 0.138.0
