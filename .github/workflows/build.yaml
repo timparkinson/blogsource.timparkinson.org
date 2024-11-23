@@ -33,7 +33,7 @@ jobs:
         with:
           path: blogsource
 
-      # Checkout the built assets repository
+      # Checkout the built site repository
       - name: Checkout build
         uses: actions/checkout@v4
         with:
@@ -48,4 +48,9 @@ jobs:
           hugo --destination ../build
           ls ../build
 
+      # Commit and push to built site repository
+      - name: Commit and push
+        run:
+          cd build
+          git commit -a -m "Build Action $GITHUB_REPOSITORY - $GITHUB_SHA" 
 
