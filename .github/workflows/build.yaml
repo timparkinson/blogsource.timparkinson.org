@@ -1,0 +1,51 @@
+name: Build Hugo Site
+
+defaults:
+  run:
+  shell: bash
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+
+      # Install the hugo binary
+      - name: Install Hugo
+        env: 
+          HUGO_VERSION: 0.138.0
+        run: |
+          mkdir ~/hugo
+          cd ~/hugo
+          curl -L "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz --output hugo.tar.gz
+          tar -xvf hugo.tar.gz
+          sudo mv hugo /usr/local/bin
+
+      # Checkout the source repository
+      - name: Checkout Source
+        uses: actions/checkout@v4
+        with:
+          path: blogsource
+
+      # Checkout the built assets repository
+      - name: Checkout build
+        uses: actions/checkout@v4
+        with:
+          path: build
+          repository: timparkinson/blog.timparkinson.org
+          ssh-key: ${{ secrets.SSH_DEPLOY_PRIVATE_KEY }}
+
+      # Run the build
+      - name: Hugo build
+        run: |
+          cd blogsource
+          hugo --destination ../build
+          ls ../build
+
+
