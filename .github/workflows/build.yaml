@@ -46,7 +46,6 @@ jobs:
         run: |
           cd blogsource/src
           hugo --destination ../../build
-          ls ../../build
 
       # Commit and push to built site repository
       - name: Commit and push
@@ -54,8 +53,7 @@ jobs:
           cd build
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
-          ls
-          git status
           git add *
           git commit -m "Build Action $GITHUB_REPOSITORY - $GITHUB_SHA" 
+          git push
 
