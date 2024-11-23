@@ -32,5 +32,5 @@ ul.no-bullets {
 
 I've had a [Dreamhost](https://www.dreamhost.com/) hosting account for a __long__ time. I don't think that a static blog site that nobody is going to read needs to be any fancier than that to be honest. 
 
-I do use [Cloudflare](https://www.cloudflare.com/) as a CDN.
+I do use [Cloudflare](https://www.cloudflare.com/) to host the DNS zone for `timparkinson.org` and act as a CDN. I let Cloudflare handle the 'Edge' certificates automatically - i.e. those that are presented to the browser by Cloudflare's magic proxying. I've installed a Cloudflare Origin certificate on the Dreamhost site which allows for end to end encryption. I did have to switch the TLS settings to `Full (strict)` within Cloudflare otherwise I got stuck in a redirect loop.
 
