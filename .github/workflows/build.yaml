@@ -54,5 +54,8 @@ jobs:
           cd build
           git config --local user.email "actions@github.com"
           git config --local user.name "GitHub Action"
-          git commit -a -m "Build Action $GITHUB_REPOSITORY - $GITHUB_SHA" 
+          ls
+          git status
+          git add *
+          git commit -m "Build Action $GITHUB_REPOSITORY - $GITHUB_SHA" 
 
