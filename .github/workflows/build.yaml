@@ -50,7 +50,7 @@ jobs:
 
       # Commit and push to built site repository
       - name: Commit and push
-        run:
+        run: |
           cd build
           git commit -a -m "Build Action $GITHUB_REPOSITORY - $GITHUB_SHA" 
 
