@@ -2,7 +2,7 @@ name: Build Hugo Site
 
 defaults:
   run:
-  shell: bash
+    shell: bash
 
 on:
   workflow_dispatch:
