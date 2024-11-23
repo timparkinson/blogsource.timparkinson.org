@@ -45,8 +45,8 @@ jobs:
       - name: Hugo build
         run: |
           cd blogsource/src
-          hugo --destination ../build
-          ls ../build
+          hugo --destination ../../build
+          ls ../../build
 
       # Commit and push to built site repository
       - name: Commit and push
