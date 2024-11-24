@@ -1,6 +1,6 @@
 +++
-date = '2024-11-22T05:25:08Z'
-draft = true
+date = '2024-11-24T05:25:08Z'
+draft = false
 title = 'Blog setup'
 description = 'How this blog is built'
 tags = ["blog"]
@@ -8,7 +8,7 @@ tags = ["blog"]
 
 ## Hugo
 
-I like Static Site Generators (SSGs) for a blog and I've used [Hugo](https://gohugo.io) in the past, some time ago, so I've built this using that. I did a bit of searching to see if there was anything equivalent in the .Net space, but couldn't really find much other than [docfx](https://dotnet.github.io/docfx/), which is a bit documentation focused. 
+I like Static Site Generators (SSGs) for a blog, and I've used [Hugo](https://gohugo.io) in the past, so I've built this using that. I did a bit of searching to see if there was anything equivalent in the .Net space, but couldn't really find much other than [docfx](https://dotnet.github.io/docfx/), which is a bit documentation focused. 
 
 If anything, Hugo is actually too powerful and comprehensive a tool. Having not used it in a while it took me a little bit of poking and prodding to get going with it. 
 
@@ -32,5 +32,6 @@ ul.no-bullets {
 
 I've had a [Dreamhost](https://www.dreamhost.com/) hosting account for a __long__ time. I don't think that a static blog site that nobody is going to read needs to be any fancier than that to be honest. 
 
-I do use [Cloudflare](https://www.cloudflare.com/) to host the DNS zone for `timparkinson.org` and act as a CDN. I let Cloudflare handle the 'Edge' certificates automatically - i.e. those that are presented to the browser by Cloudflare's magic proxying. I've installed a Cloudflare Origin certificate on the Dreamhost site which allows for end to end encryption. I did have to switch the TLS settings to `Full (strict)` within Cloudflare otherwise I got stuck in a redirect loop.
+I use [Cloudflare](https://www.cloudflare.com/) to host the DNS zone for `timparkinson.org` and act as a CDN. I let Cloudflare handle the 'Edge' certificates automatically - i.e. those that are presented to the browser by Cloudflare's magic proxying. I've installed a Cloudflare Origin certificate on the Dreamhost site which allows for end to end encryption. I did have to switch the TLS settings to `Full (strict)` within Cloudflare otherwise I got stuck in a redirect loop.
 
+I'm using [Github Actions](https://github.com/features/actions) to build and publish the site, and will detail that setup at a later time.   
