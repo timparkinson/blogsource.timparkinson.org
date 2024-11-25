@@ -62,7 +62,7 @@ Press {{< kbd "Alt+F4" >}} to active the destruct sequence.
 `layouts/shortcodes/notice.html`
 
 ```html
-<p class="notice">{{ .Inner }}</p>
+<p class="notice">{{ .Inner | markdownify}}</p>
 ```
 
 ```
