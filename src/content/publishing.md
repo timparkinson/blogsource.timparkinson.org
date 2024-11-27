@@ -1,6 +1,6 @@
 +++
 date = '2024-11-27T08:26:51Z'
-draft = true
+draft = false
 title = 'Publishing'
 description = 'Getting the posts from the computer to the website'
 tags = ["blog", "github actions"]
