@@ -22,4 +22,4 @@ I'm not going to rehash the whole almost 200 pages of the [book](https://spiffe.
 
 [^mtlsisawesome]: mTLS is awesome: https://www.youtube.com/watch?v=FDAUwMwVuns&ab_channel=SecurityFest
 
-[^notadeveloper]: My role at work is a sysadmin, so I'm not a developer per se. I do , however, find myself writing quite a lot of code.
+[^notadeveloper]: My role at work is a sysadmin, so I'm not a developer per se. I do , however, find myself writing quite a lot of code. As a developer I don't want to care about 'plumbing', as a sysadmin I **am** a plumber.
