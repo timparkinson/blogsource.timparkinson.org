@@ -1,6 +1,6 @@
 +++
-date = '2024-12-07T08:31:05Z'
-draft = true
+date = '2024-12-09T08:31:05Z'
+draft = false
 title = 'Premium Powershell'
 description = 'Command line Premium Bond prize checker'
 tags = ["powershell", "premium bonds"]
