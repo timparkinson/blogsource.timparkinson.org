@@ -47,18 +47,16 @@ jobs:
           cd blogsource/src
           hugo --destination ../../build
 
-      # WTF
-      - name: where my ignore
+      # Copy .lycheeignore
+      - name: Copy lychee exclusions
         run: |
-          pwd
-          ls
+          cp blogsource/.lycheeignore .
 
       # Check links 
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          path: build
-          args: --verbose --no-progress './**/*.html'
+          args: --base build --verbose --no-progress './**/*.html'
           fail: true
 
       # Commit and push to built site repository
