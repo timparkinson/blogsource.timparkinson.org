@@ -50,8 +50,8 @@ jobs:
       # WTF
       - name: where my ignore
         run: |
-          cat .lycheeignore
           pwd
+          ls
 
       # Check links 
       - name: Check links
