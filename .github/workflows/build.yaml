@@ -47,6 +47,12 @@ jobs:
           cd blogsource/src
           hugo --destination ../../build
 
+      # WTF
+      - name: where my ignore
+        run: |
+          cat .lycheeignore
+          pwd
+
       # Check links 
       - name: Check links
         uses: lycheeverse/lychee-action@v2
