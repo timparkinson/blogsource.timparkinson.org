@@ -1,2 +1,6 @@
 # 403s from github runner :(
 https?:\/\/(www\.)?cloudflare\.com\/
+https?:\/\/(www\.)?moneysavingexpert\.com\/
+
+# Too many redirects
+https?:\/\/(www\.)?cubicle7games\.com\/
