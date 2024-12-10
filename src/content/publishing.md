@@ -11,7 +11,7 @@ I'm using [Github Actions](https://github.com/features/actions) to build and pub
 * Installs Hugo on the GitHub runner
 * Checks out the source repository
 * Checks out the built site repository
-* Runs Hugo to build the site, redirecting output to the built site repository
+* Runs Hugo to build the site, redirecting output to the built site directory
 * Creates a commit in the built site repository and pushes it
 
 In the built site repository, on a push, another action calls a webhook. This is a script (defined within the built site repository) which simply does a `git pull`. This avoids having to do push the site from actions via SCP or some other mechanism.
