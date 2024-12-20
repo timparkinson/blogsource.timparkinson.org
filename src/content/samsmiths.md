@@ -6,7 +6,7 @@ description = "Britain's strangest pub chain"
 tags = ["link"]
 +++
 
-There's a great [long read by Mark Blacklock in The Guardian](https://www.theguardian.com/news/2024/dec/19/humphreys-world-how-the-samuel-smith-beer-baron-built-britains-strangest-pub-chain) about Samuel Smith Old Brewery, it's chain of public houses and it particular it's unusual chairman.
+There's a great [long read by Mark Blacklock in The Guardian](https://www.theguardian.com/news/2024/dec/19/humphreys-world-how-the-samuel-smith-beer-baron-built-britains-strangest-pub-chain) about Samuel Smith Old Brewery, it's chain of public houses and in particular it's unusual chairman.
 
 I'd long been aware of the policies in place at the pubs - bans on swearing and electronic devices. Reputedly the chairman likes to visit these pubs and is very trigger happy about infractions, shuttering pubs and sacking the staff when he doesn't like something [^staff]. I've certainly seen Samuel Smith pubs stand empty, including some quite local to me [^brownbear] [^cowandcalf].
 
