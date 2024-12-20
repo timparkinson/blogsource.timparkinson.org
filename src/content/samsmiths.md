@@ -10,9 +10,9 @@ There's a great [long read by Mark Blacklock in The Guardian](https://www.thegua
 
 I'd long been aware of the policies in place at the pubs - bans on swearing and electronic devices. Reputedly the chairman likes to visit these pubs and is very trigger happy about infractions, shuttering pubs and sacking the staff when he doesn't like something [^staff]. I've certainly seen Samuel Smith pubs stand empty, including some quite local to me [^brownbear] [^cowandcalf].
 
-The article goes into a lot of detail about the history of the brewery empire, it's secrecy and the activities of it's chairman and is well worth a read.
+The article goes into a lot of detail about the history of the brewery empire, it's secrecy and the activities of it's chairman and is well worth a read. There's also [a segment from Joe Lycett](https://www.youtube.com/watch?v=-oDZB-ZyvTE) on the chain.
 
-[^staff]: Unlike most tied pub estates, where the managers are effectively self-employed contractors, Samuel Smith pub managers are employees of the company.
+[^staff]: Samuel Smith switched to using directly employed pub managers in the 1980s rather than tenants/lessees which was the norm.
 
 [^brownbear]: [The Brown Bear](https://www.rmcmedia.co.uk/vibe/food-and-drink/article/Brown-Bear-closes-suddenly) was reportedly closed because swearing was heard on the premises.
 
