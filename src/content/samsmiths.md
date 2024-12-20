@@ -1,7 +1,7 @@
 +++
 date = '2024-12-20T06:43:47Z'
 draft = false
-title = 'Samuel Smiths'
+title = "Samuel Smith's"
 description = "Britain's strangest pub chain"
 tags = ["link"]
 +++
