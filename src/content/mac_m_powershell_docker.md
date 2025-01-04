@@ -1,6 +1,6 @@
 +++
-date = '2024-12-21T07:01:53Z'
-draft = true
+date = '2025-01-04T06:01:53Z'
+draft = false
 title = 'Powershell Docker on ARM Macs'
 description = "The image doesn't work"
 tags = ["tech", "note", "mac", "powershell", "docker"]
