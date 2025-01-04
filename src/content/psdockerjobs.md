@@ -1,6 +1,6 @@
 +++
 date = '2025-01-04T06:28:43Z'
-draft = true
+draft = false
 title = 'Start-DockerJob'
 description = 'extending the powershell jobs infrastructure to support docker'
 tags = ["tech", "powershell", "docker"]
