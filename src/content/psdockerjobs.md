@@ -60,6 +60,9 @@ So that's definitely a promising start, but there's lots more to look at:
 
 If I can get whip the code into something a little more complete and robust I may well publicly release it.
 
+## To Be Continued...
+* [Part 2]({{< ref "psdockerjobs2" >}}) - fixing up job properties and adding powershell parameters.
+
 [^google]: Or perhaps it's the means of [finding stuff](https://pluralistic.net/2023/10/03/not-feeling-lucky/) these days that's the problem.
 
 [^whyjustdocker]: Of course, it might be possible to extend this concept to other back-ends - kubernetes, HPC schedulers, cloud lambda services, etc.
