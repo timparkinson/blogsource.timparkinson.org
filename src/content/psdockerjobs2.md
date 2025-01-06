@@ -6,6 +6,10 @@ description = 'Parameters & Properties'
 tags = ["tech", "powershell", "docker"]
 +++
 
+## ... Continuing from
+
+* [Part 1]({{< ref "psdockerjobs" >}}) - sketching out the idea.
+
 ## Arguments/Parameters
 
 Being able to run arbitrary powershell will only get you so far if you can't provide any parameters. I modified the `StartDockerJobCommand` class to add a {{< mark >}}ArgumentList{{< /mark >}} parameter as per `Start-Job`.
