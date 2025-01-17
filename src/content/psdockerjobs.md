@@ -62,6 +62,7 @@ If I can get whip the code into something a little more complete and robust I ma
 
 ## To Be Continued...
 * [Part 2]({{< ref "psdockerjobs2" >}}) - fixing up job properties and adding powershell parameters.
+* [Part 3]({{< ref "psdockerjobs2" >}}) - Adding contexts, implementing job operations.
 
 [^google]: Or perhaps it's the means of [finding stuff](https://pluralistic.net/2023/10/03/not-feeling-lucky/) these days that's the problem.
 
