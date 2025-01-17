@@ -1,6 +1,6 @@
 +++
-date = '2025-01-12T12:57:08Z'
-draft = true
+date = '2025-01-17T12:57:08Z'
+draft = false
 title = 'Start-DockerJob Part 3'
 description = 'Contexts, Job operations'
 tags = ["tech", "powershell", "docker"]
