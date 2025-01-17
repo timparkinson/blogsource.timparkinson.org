@@ -86,6 +86,6 @@ Id     Name            PSJobTypeName   State         HasMoreData     Location   
 Similarly, I'd missed setting the `Name` property of the `JobInvocationInfo` soecification object. This was set in the [sample](https://github.com/microsoft/Windows-classic-samples/blob/main/Samples/PowerShell/JobSourceAdapter/cs/JobSourceAdapterSample.cs), so was an omission on my part in my first stab.
 
 ## To Be Continued...
-* [Part 3]({{< ref "psdockerjobs2" >}}) - Adding contexts, implementing job operations.
+* [Part 3]({{< ref "psdockerjobs3" >}}) - Adding contexts, implementing job operations.
 
 [^pwshnotdocker]: Actually, it's the arguments to the powershell interpreter within the container that are being passed as part of the arguments passed to the docker process but let's not worry about that.
