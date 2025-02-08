@@ -31,5 +31,6 @@ During another hour or so I had to spend I ran through the list of job operation
 * Refactor - I suspect I ought to refactor the code to have something like an `IDockerCommand` interface to make testing easier and the code [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 
-
+# To Be Continued...
+* [Part 4]({{< ref "psdockerjobs4" >}}) - Errors, Tests and WSL2 oddities.
 
