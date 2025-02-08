@@ -43,11 +43,11 @@ When starting to add basic unit tests I realised that I'd left the `Location` pr
 
 ```csharp
 public override string Location 
-    {
-        get {
-            return _context ?? "localhost";
-        }
+{
+    get {
+        return _context ?? "localhost";
     }
+}
 ```
 
 ## Unit tests
