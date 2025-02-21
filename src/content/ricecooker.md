@@ -1,5 +1,5 @@
 +++
-date = '2025-02-15T07:54:46Z'
+date = '2025-02-21T07:54:46Z'
 draft = false
 title = 'Rice Cooker'
 description = 'A new addition to the kitchen'
