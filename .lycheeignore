@@ -4,3 +4,7 @@ https?:\/\/(www\.)?moneysavingexpert\.com\/
 
 # Too many redirects
 https?:\/\/(www\.)?cubicle7games\.com\/
+
+# Hugo not working from github
+# [https://gohugo.io/](https://gohugo.io/) | Network error: error sending request for url (https://gohugo.io/)
+https:\/\/gohugo.io\/
