@@ -23,13 +23,18 @@ The [Bradford 2025 channel on Youtube](https://www.youtube.com/@Bradford_2025) h
 
 {{< youtube zP9bUzFU-5c >}}
 
+
 {{< youtube jbD78HH0c6M >}}
+
 
 {{< youtube _7RgksmbvQM >}}
 
+
 {{< youtube SVIarjkoa2g >}}
 
+
 {{< youtube GQX4UM6x3hA >}}
+
 
 {{< youtube 9fJQCcHIBCA >}}
 
