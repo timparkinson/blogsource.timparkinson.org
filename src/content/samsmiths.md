@@ -14,6 +14,6 @@ The article goes into a lot of detail about the history of the brewery empire, i
 
 [^staff]: Samuel Smith switched to using directly employed pub managers in the 1980s rather than tenants/lessees which was the norm.
 
-[^brownbear]: [The Brown Bear](https://www.rmcmedia.co.uk/vibe/food-and-drink/article/Brown-Bear-closes-suddenly) was reportedly closed because swearing was heard on the premises.
+[^brownbear]: The brown bear, Sheffield, was reportedly closed because swearing was heard on the premises. Link no longer works.
 
 [^cowandcalf]: [The Cow and Calf](https://www.thestar.co.uk/lifestyle/food-and-drink/brewery-boss-shuts-down-sheffield-pub-after-not-serving-his-favourite-dessert-2948789) was reportedly closed because the pub didn't have Humphrey Smith's favourite dessert. 
