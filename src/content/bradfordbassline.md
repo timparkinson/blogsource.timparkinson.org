@@ -15,7 +15,7 @@ This time we stayed overnight and we were joined by Lou's sister and niblings. A
 {{< aside >}}Two bar staff for a busy dance music event, St George's Hall, really?{{< /aside >}} 
 The intermission arrived, and after a toilet break and a failed attempt to get a drink from the bar, it was time for the main event. The musicians of the [Orchestra of Opera North](https://www.operanorth.co.uk/) filed onto the stage, joined by a trio of singers. As DJs TS7, DJ Q and Jamie Duggan 'played' a set each with the orchestra accompanying we were treated to a succession of guest singers and MCs. I really enjoyed it - I thought the orchestra added a lot to the tracks. By the time Jamie Duggan had come on, like about 75% of the rest of the audience, we'd abandoned our seats. Instead, we were dancing behind the uppermost row of seats along the side of the Grand Tier.
 
-I have to call out how great the trio of singers were - they absolutely nailed some of the classic tunes. Also the sign language interpreters seemed to be having a ball. Big respect to all involved in putting the show on - I had a great time and most importantly we earned some cool aunty & uncle points from the niblings. 
+I have to call out how great the trio of singers were - they absolutely nailed some of the classic tunes. Also the sign language interpreters seemed to be having a ball. Big respect to all involved in putting the show on - I had a great time and most importantly we earned some cool aunty & uncle points from the niblings!
 
 ### Videos
 
