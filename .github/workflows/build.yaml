@@ -56,7 +56,7 @@ jobs:
       - name: Check links
         uses: lycheeverse/lychee-action@v2
         with:
-          args: --base build --verbose --no-progress './**/*.html'
+          args: --base-url file:///build/ --verbose --no-progress './**/*.html'
           fail: true
 
       # Commit and push to built site repository
