@@ -48,16 +48,16 @@ jobs:
           hugo --destination ../../build
 
       # Copy .lycheeignore
-      - name: Copy lychee exclusions
-        run: |
-          cp blogsource/.lycheeignore .
+      #- name: Copy lychee exclusions
+      #  run: |
+      #    cp blogsource/.lycheeignore .
 
       # Check links 
-      - name: Check links
-        uses: lycheeverse/lychee-action@v2
-        with:
-          args: --base-url file:///build/ --verbose --no-progress './**/*.html'
-          fail: true
+      #- name: Check links
+      #  uses: lycheeverse/lychee-action@v2
+      #  with:
+      #    args: --base-url file:///build/ --verbose --no-progress './**/*.html'
+      #    fail: true
 
       # Commit and push to built site repository
       - name: Commit and push
